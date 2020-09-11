@@ -1,6 +1,7 @@
 # Coloborative-Projects
 
 The scopeThis project aims to derive insights from health related data. 
+
 Phase I: initial table cleaning
 
 The file "County_Health_Rankings.csv" downloaded from Tableau data source contains missing data and mislabeled data in multiple columns as well as duplicated records.  It was migrated into Postgres database as a table. 
