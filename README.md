@@ -1,6 +1,8 @@
 # Coloborative-Projects
 
-The scopeThis project aims to derive insights from health related data. 
+The scope
+
+This project aims to derive insights from health related data. 
 
 Phase I: initial table cleaning
 
