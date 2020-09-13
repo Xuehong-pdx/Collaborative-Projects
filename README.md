@@ -8,7 +8,7 @@ The original file "County_Health_Rankings.csv" can be found at https://public.ta
 
 This file contains missing data and mislabeled data in multiple columns as well as duplicated records.  It was migrated into Postgres database as a table. 
 
-Minimum cleaning were done in Postgres using DBeaver interface.  Rows with mislabeled data are corrected based on other information in other columns.  Duplicate rows and rows with missing values that are less than 1% of the total data are removed.  The postgresSQL-scripts for creating and cleaning the table (postgresSQL_script_clean_data.txt) and the minimum cleaned file (Cleaned_Health_rankings.csv) are uploaded.
+Minimum cleaning were done in Postgres using DBeaver interface.  Rows with mislabeled data are corrected based on other information in other columns.  Duplicate rows are removed.  The postgresSQL-scripts for creating the original table (csv_to_table) and for cleaning the table (clean_table_to_csv.sql) and the minimum cleaned file (cleaned_rankings_1.csv) are uploaded.
 
 # Phase II: getting other types of related data
 
