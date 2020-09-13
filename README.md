@@ -4,11 +4,11 @@ This project aims to derive insights from health related data.
 
 # Phase I: initial table cleaning
 
-The file "County_Health_Rankings.csv" can also be found at https://public.tableau.com/s/sites/default/files/media/County_Health_Rankings.csv
+The original file "County_Health_Rankings.csv" can be found at https://public.tableau.com/s/sites/default/files/media/County_Health_Rankings.csv
 
 This file contains missing data and mislabeled data in multiple columns as well as duplicated records.  It was migrated into Postgres database as a table. 
 
-To clean the table, rows with the mostly missing data are dropped, whenever possible mislabeled data are corrected based on other information in other columns.  Two cleaned tables were generated.  One focused on preserving as much as possible the records without any null values ("Cleaned_Health_Rankings.csv"), the other focused more on preserving features ("Cleaned_Health_Rankings_1.csv") where preserving four more features costs 58% loss of records. Both files are uploaded via LFS to this repository
+Minimum cleaning were done within Postgres using DBeaver interface.  To clean the table, rows with mislabeled data are corrected based on other information in other columns.  Rows with missing values that are less than 1% of the total data are removed.  
 
 # Phase II: getting other types of related data
 
