@@ -8,7 +8,7 @@ The original file "County_Health_Rankings.csv" can be found at https://public.ta
 
 This file contains missing data and mislabeled data in multiple columns as well as duplicated records.  It was migrated into Postgres database as a table. 
 
-Minimum cleaning were done within Postgres using DBeaver interface.  To clean the table, rows with mislabeled data are corrected based on other information in other columns.  Rows with missing values that are less than 1% of the total data are removed.  
+Minimum cleaning were done in Postgres using DBeaver interface.  Rows with mislabeled data are corrected based on other information in other columns.  Rows with missing values that are less than 1% of the total data are removed.  
 
 # Phase II: getting other types of related data
 
