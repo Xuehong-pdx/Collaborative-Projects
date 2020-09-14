@@ -18,6 +18,6 @@ Economical, COVID-19 related and other types of data will be integrated as new t
 
 Various machine learning algorithms will be used for predictive analysis when appropriate  to derive actionable insights.
 
-# Resources
+# References
 - https://www.countyhealthrankings.org/sites/default/files/media/document/resources/Ranked%20measures%20from%20the%20CHR%202010-2019v2.pdf
 - https://www.countyhealthrankings.org/explore-health-rankings/rankings-data-documentation/national-data-documentation-2010-2018
