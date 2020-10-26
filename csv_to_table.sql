@@ -11,12 +11,16 @@ run if you wish to recreate the table with updates to data model, etc
 
 CSV link: 
 https://public.tableau.com/s/sites/default/files/media/County_Health_Rankings.csv
+
+Resources:
+https://www.countyhealthrankings.org/sites/default/files/media/document/resources/Ranked%20measures%20from%20the%20CHR%202010-2019v2.pdf
+https://www.countyhealthrankings.org/explore-health-rankings/rankings-data-documentation/national-data-documentation-2010-2018
 */
 
-CREATE SCHEMA test
+CREATE SCHEMA inputs
 
 --DROP TABLE IF EXISTS test.county_health
-CREATE TABLE test.county_health (
+CREATE TABLE inputs.county_health (
 	state varchar(2)
 	, county varchar
 	, state_code smallint
@@ -33,6 +37,6 @@ CREATE TABLE test.county_health (
 	, fips_code integer
 );
 
-COPY test.county_health
+COPY inputs.county_health
 FROM 'full_path_to_file.csv'
 DELIMITER ',' CSV HEADER;
